@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@700&display=swap');
+
+@import "colors.less";
+@import "fonts.less";
+
+
+//variables 
+@selector : .new_text;
+*  {
+	box-sizing: border-box !important;
+	transition: ease all 0.5s;
+}
+body {
+    width: @width0;
+    height: @height1;
+	color: @color1;
+	font-family: @fontF;
+	font-size: 1em;
+	font-weight: normal;
+	line-height: 1.80857;
+	overflow-x: hidden;
+	
+}
+.about_main {
+	.collection_section {
+		float: left;
+		margin-top: 40px;
+		width: @width0;
+		.container {
+			@{selector} {
+				color: @color2;
+				float: left;
+				font-size: 2em;
+				width: @width0;
+			}
+			.consectetur_text {
+				color: @color2;
+				float: left;
+				font-size: 1.2em;
+				font-weight: 400;
+				margin-left: 0px;
+				padding-bottom: 30px;
+				width: @width0;
+			}
+		}
+	}
+	.collection_section_3 {
+		float: left;
+		padding-top: 0px;
+		width: @width0;
+		.container {
+			.racing_shoes {
+				background-color: @color3;
+				background-size: 100%;
+				float: left;
+				height: auto;
+				margin-bottom: 100px;
+				padding-bottom: 100px;
+				padding-top: 70px;
+				width: @width0;
+				.shoes-img3 {
+					float: left;
+					text-align: center;
+					width: @width0;
+					img {
+						margin-top: 4em;
+						width: 70%;
+					}
+				}
+				.sales_text {
+					color: @color5;
+					float: left;
+					font-size: 3em;
+					line-height: 75px;
+					width: @width0;
+				}
+			}
+		}
+	}
+}
+.collection_text {
+	background-color: @color5;
+	color: @color4;
+	float: left;
+	font-family: 'Syncopate', sans-serif;
+	font-size: 3em;
+	font-weight: bold;
+	padding: 30px 0px;
+	text-align: center;
+	width: @width0;
+}
+.collection_section_3 {
+	.container {
+		.racing_shoes {
+			.number_text {
+				color: @color5;
+				float: left;
+				font-size: 3em;
+				line-height: 75px;
+				width: @width0;
+			}
+			.seemore {
+				background-color: @color5;
+				color: @color4;
+				font-size: 1.7em;
+				height: 50px;
+				margin-top: 35px;
+				width: 80%;
+			}
+		}
+	}
+}
+.copyright {
+	background-color: @color5;
+	color: @color4;
+	float: left;
+	font-family: @fontF;
+	font-size: 1em;
+	padding: 10px 0px;
+	text-align: center;
+	width: @width0;
+}
